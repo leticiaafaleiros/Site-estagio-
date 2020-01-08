@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Smarty V3</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="stylesheet" type="text/css" href="responsividade.css">
+    <script type="text/javascript"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <!-- ============== BARRA MENU ============== -->
+    <div class="main">
+        <header>
+            <div class="topbar" id="topbar">
+                <div class="btMenu-imgMenu">
+                    <div class="img-menu">
+                        <div class="img-black" id="img-black">
+                            <img src="https://smarty.stepofweb.com/3.0.5/html_frontend/assets/images/logo/logo_dark.svg" width="110" height="70" alt="...">
+                        </div>
+
+                        <div class="img-white" id="img-white">
+                            <img src="https://smarty.stepofweb.com/3.0.5/html_frontend/assets/images/logo/logo_light.svg" width="110" height="70" alt="...">
+                        </div>
+                    </div>
+
+                    <label id="bt_menu" onclick="bt_menu">&#9776;</label>
+                    <div class="fecharLateral">
+                        <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+                    </div>
+                </div>
+            </div>
+            <!-- ============== LINK MENU ============== -->
+
+            <div class="drawer">
+                <ul class="menu nav-bar">
+                    <li class="navItem"><a class="nav-link" href="#home">HOME</a></li>
+                    <li class="navItem"><a class="nav-link" href="#sobre-nos">SOBRE NÓS</a></li>
+                    <li class="navItem"><a class="nav-link" href="#reputacao">REPUTAÇÃO</a></li>
+                    <li class="navItem"><a class="nav-link" href="#contate-nos">CONTATE-NOS</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- ============= IMAGEM DE FUNDO =============  -->
+        <div class="container-bg">
+            <div class="imagem">
+                <div class="container_bg">
+                </div>
+
+                <!-- ============= SUBTITULO ============= -->
+                <div class="subtitulo">
+                    <div class="texto-centro">
+                        <div class="texto-branco py-7">
+                            <!-- ============= TITULO PRINCIPAL ============= -->
+                            <h1 class="h1-xs display mb-0 font-weight-medium">
+                                Advogados <span class="text-brown-200">Profissionais</span>
+                            </h1>
+
+
+                            <h2 class="h2 h5-xs mb-0 texto-marrom-100">
+                                Lutando juntos para melhorar
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ============= ESTATISTICAS DE CASOS============= -->
+        <section class=" margin-casos">
+            <div class="casos-margin">
+                <div class="linha texto-centro texto-marrom-400">
+
+                    <div class="col-6 coluna casos">
+                        <div class="h1">
+                            <span id="counter" data-count-decimals="0">0</span>
+                        </div>
+
+                        <h3 class="h6 m-0">CLIENTES CONFIÁVEIS </h3>
+
+                    </div>
+                    <div class="col-6 coluna casos">
+
+                        <div class="h1">
+                            <span id="counter1" data-count-decimals="0">0</span><span class="font-weight-light">%</span>
+                        </div>
+
+                        <h3 class="h6 m-0">CASOS DE SUCESSO</h3>
+
+                    </div>
+                    <div class="col-6 coluna casos">
+
+                        <div class="h1">
+                            <span id="counter2" data-count-decimals="0">0</span>
+                        </div>
+
+                        <h3 class="h6 m-0">CASOS DE PREJUÍZOS PESSOAIS</h3>
+
+                    </div>
+                    <div class="col-6 coluna casos">
+
+                        <div class="h1">
+                            $<span id="counter3" data-count-decimals="0">0</span>
+                        </div>
+
+                        <h3 class="h6 m-0">RECUPERADO PARA NOSSOS CLIENTES</h3>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr style="height:1px; border:none; color:#000; background-color:#8d6e63; margin-top: 0px; margin-bottom: 0px;">
+
+
+        <!-- ============= QUEM SOMOS NÓS =============  -->
+        <section id="sessao_reputacao">
+
+            <div class="casos" id="bg-casos" style="display: flex; flex-direction: row; justify-content: space-around; width: 100%;">
+                <div class="bg-casos2">
+                    <h2 class="display-5 font-weight-normal h2-md casos texto-marrom-400">
+                        Quem nós somos?
+                    </h2>
+                    <p class="casos lead">
+                        Responder a essas perguntas e mais é uma tarefa difícil, mas você deve abordar com entusiasmo. Afinal, este é o único lugar que você pode e deve cantar seus próprios aplausos.
+                    </p>
+                    <p class="casos lead2">
+                        Responder a essas perguntas e mais é uma tarefa difícil, mas você deve abordar com entusiasmo. Afinal, este é o único lugar que você pode e deve cantar seus próprios aplausos.
+                    </p>
+
+                    <div class="play">
+                        <button class="modalBtn"><i class="material-icons">play_circle_filled</i></button>
+                        <span class="texto-video">VEJA NOSSO VÍDEO</span>
+                    </div>
+                </div>
+                <!-- ============= MODAL VIDEO =============  -->
+
+                <div id="simpleModal" class="modal">
+                    <div class="modal-content">
+                        <span class="closeBtn">&times;</span>
+
+                        <div class="video">
+                            <iframe src="https://www.youtube.com/embed/I_fQh_HmF6s"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="img-bg" style="margin-top: 7%; margin: 0 auto;">
+                    <div class="img3">
+                        <img src="./Imagem/img3.jpg" style="width: 192px; height: 200px; border-radius: 20px; object-fit: cover;">
+                    </div>
+
+                    <div class="img2">
+                        <img src="./Imagem/img2.jpg" style="width: 194px; height: 200px; border-radius: 20px; object-fit: cover;">
+                    </div>
+
+                    <div class="img1">
+                        <img src="./Imagem/img1.jpg" style="width: 194px; height: 200px; border-radius: 20px; object-fit: cover; ">
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ============= SESSÃO VAMOS TRABALHAR JUNTOS =============  -->
+        <section class="bg-image" styles="background-image:url('demo.files/images/unsplash/lawyer/sebastian-pichler-bAQH53VquTc-unsplash.jpg')">
+            <div class="texto_centro">
+                <div class="bg-imagem">
+
+                    <div class="texto_container">
+
+                        <h2 class="h3-xs display font-weight-medium">VAMOS TRABALHAR JUNTOS</h2>
+                        <p class="font-weight-light casos">Não podemos resolver problemas usando o mesmo tipo de pensamento que usamos quando os criamos.</p>
+
+                        <a href="tel:7853889450" class="h3-xs display font-weight-medium ">785-388-9450</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ============= IMAGEM DE FUNDO ============= -->
+            <div class="container-6" style="position: absolute;top: 0px;left: 0px; overflow: hidden;z-index: -100;">
+            </div>
+        </section>
+
+        <!-- ============= SESSÃO REPUTAÇÃO ============= -->
+        <section id="reputacao">
+            <div class="sobre">
+
+                <div class="texto_reputacao">
+                    <div class="texto-reputacao">
+                        <h2 class="h1 font-weight-normal texto-marrom-400">
+                            Advogados com reputação global
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="sobre-nos" id="sobre-nos">
+                    <div class="container-sobre">
+
+                        <div class="text-gray-800">
+                            <h3 class="h6 margin-reputacao">O QUE NÓS FAZEMOS</h3>
+                            <p class="resposta">
+                                Responder a essas perguntas é mais uma tarefa difícil, mas você deve abordar com entusiasmo.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="sobre-nos">
+                        <div class="container-sobre">
+
+                            <div class=" shadow-xs transition-hover-top transition-all-ease-150 text-gray-800">
+                                <h3 class="h6 margin-reputacao">ONDE TRABALHAMOS</h3>
+                                <p class="resposta">
+                                    Responder a essas perguntas é mais uma tarefa difícil, mas você deve abordar com entusiasmo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sobre-nos">
+                        <div class="container-sobre">
+
+                            <div class=" shadow-xs transition-hover-top transition-all-ease-150 text-gray-800">
+                                <h3 class="h6 margin-reputacao">ADVOGADOS INTELIGENTES</h3>
+
+                                <p class="resposta">
+                                    Responder a essas perguntas é mais uma tarefa difícil, mas você deve abordar com entusiasmo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sobre-nos">
+                        <div class="container-sobre">
+
+                            <div class="text-gray-800">
+                                <h3 class="h6 margin-reputacao">VISÃO FUTURA</h3>
+                                <p class="resposta">
+                                    Responder a essas perguntas é mais uma tarefa difícil, mas você deve abordar com entusiasmo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =============  SESSÃO REPUTAÇÃO =============-->
+
+        <section id="sessao-reputacao">
+
+            <div class="sobre">
+
+                <div class="linha">
+
+                    <div class="container_sobre">
+                        <div class="icon1">
+                            <img src="../site/Imagem/fifi1.png" style="width: 70px; height: 70px; margin-top: 21px;">
+                        </div>
+
+                        <h3 class="h6 margin-reputacao">ADVOGADOS ESPECIALIZADOS
+                        </h3>
+                        <p class="resposta">
+                            Responder a essas perguntas é mais uma tarefa difícil, mas você deve abordar com entusiasmo.
+                        </p>
+
+                        <div class="link">
+                            <a href="#!">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Saber mais</font>
+                                </font>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="container_sobre">
+                        <div class="icon2">
+                            <img src="../site/Imagem/fifi2.png" style="width: 60px; height: 60px;">
+                        </div>
+
+                        <h3 class="h6 margin-reputacao">UMA VISÃO GLOBAL</h3>
+                        <p class="resposta">
+                            Responder a essas perguntas é mais uma tarefa difícil, mas você deve abordar com entusiasmo.
+                        </p>
+                        <div class="link">
+                            <a href="#!">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Saber mais</font>
+                                </font>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="container_sobre">
+                        <div class="icon3">
+                            <img src="../site/Imagem/fifi3.png" style="width: 50px; height: 50px; margin-top: 21px;">
+                        </div>
+
+                        <h3 class="h6 margin-reputacao">FOCO NO CLIENTE</h3>
+                        <p class="resposta">
+                            Responder a essas perguntas é mais uma tarefa difícil, mas você deve abordar com entusiasmo.
+                        </p>
+                        <div class="link">
+                            <a href="#!">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Saber mais</font>
+                                </font>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============= DEPOIMENTOS ============= -->
+        <div class="depoimento texto-centro ">
+            <h2 class="h1 font-weight-normal texto-marrom-400">
+                Depoimentos
+            </h2>
+        </div>
+
+        <section class="testemunhas">
+            <div class="container-testemunha">
+
+                <!-- ============= CARD JOSEPH ============= -->
+                <div class="card-joseph">
+                    <span class="image "><img src="imagem/imagem.png"></span>
+                    <p class="text-testemunha">Joseph Campbell</p>
+
+                    <div class="coment-testemunha">
+                        <h1>Profissionais, sem dúvida! Me ajudou a ganhar um caso em pouco tempo, eu não tinha esperança!</h1>
+                    </div>
+                </div>
+
+                <!-- ============= CARD JESSICA ============= -->
+                <div class="card-jessica">
+                    <span class="image "><img src="imagem/Screenshot_2.png"></span>
+                    <p class="text-testemunha">Jessica Doe</p>
+
+                    <div class="coment-testemunha">
+                        <h1>Recomendado por um amigo! Nunca pensei que vencesse meu caso, era complicado! Eles são um milagre!</h1>
+                    </div>
+                </div>
+
+                <!-- ============= CARD JOE ============= -->
+                <div class="card-joe">
+                    <div class="imagem-joe"><img src="imagem/testemunha-03.jpg " style="width: 80px; height: 80px; border-radius: 50%!important;"></div>
+                    <p class="texto-testemunha">Joe Salvatore</p>
+
+                    <div class="coment-testemunha">
+                        <h1>Profissionais, sem dúvida! Me ajudou a ganhar um caso em pouco tempo, eu não tinha esperança!</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============= SESSÃO CONTATO ============= -->
+
+        <section id="sessao_contato">
+            <div class="container-sessao">
+
+                <div class="linha-sessao">
+
+                    <div class="col-12 mb-5">
+
+                        <h2 class="font-weight-light mb-5 texto-marrom-400">
+                            <span class="fonte">Smarty</span> Contato!
+                            <small class="bloco h-6">Deixe-nos saber como podemos ajudá-lo!</small>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contato" id="contate-nos">
+
+                <div class="endereco mb-4">
+                    <h3 class="font-weight-light texto-primario h5 mb-4">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">
+                                Ligue para nós
+                            </font>
+                        </font>
+                    </h3>
+
+                    <p class="p-contact">
+                        <a href="tel:01555-88978" class="link-muted">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">+01 785-388-9450</font>
+                            </font>
+                        </a>
+                    </p>
+                    <p class="p-contact">
+                        <a href="email:john.doe@gmail.com" class="link-muted">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">john.doe@gmail.com</font>
+                            </font>
+                        </a>
+                    </p>
+                </div>
+
+                <div class="endereco mb-4">
+
+                    <h3 class="font-weight-light  texto-primario h5 mb-4">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">
+                                Nosso endereço
+                            </font>
+                        </font>
+                    </h3>
+
+                    <p class="p-contact">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">
+                                Road 741, No.44, Nova Iorque </font>
+                        </font><br>
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit; line-height: 60px;">
+                                Estados Unidos
+                            </font>
+                        </font>
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ============= MAPA E FORMULÁRIO ============ -->
+        <div class="map-form">
+
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.3000843070377!2d-74.00335268410606!3d40.6453150496285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25ac93653e8f5%3A0xaa55e5825a0dad2e!2s741%2044th%20St%2C%20Brooklyn%2C%20NY%2011220%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1574096185587!5m2!1spt-BR!2sbr"
+                    width="400" height="410" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+
+            <div class="formulario">
+
+                <div class="titulo-form">
+                    <h2 class="h3-xs font-weight-light mb-5 texto-marrom-400">
+                        Envie-nos uma mensagem
+                    </h2>
+                </div>
+
+                <div class="form-label mb-3">
+                    <input required="" placeholder="Nome" id="contact_name" name="contact_name" type="text" class="form-control">
+                    <label for="contact_name"></label>
+                </div>
+
+                <div class="form-label mb-3">
+                    <input required="" placeholder="Email" id="contact_email" name="contact_email" type="email" class="form-control">
+                    <label for="contact_email"></label>
+                </div>
+
+                <div class="form-label mb-3">
+                    <input required="" placeholder="Telefone" id="contact_phone" name="contact_phone" type="text" class="form-control">
+                    <label for="contact_phone"></label>
+                </div>
+
+                <div class="form-label mb-4">
+                    <textarea required="" placeholder="Mensagem" id="contact_message" name="contact_message" class="form-control" rows="3"></textarea>
+                    <label for="contact_message"></label>
+                </div>
+
+                <div class="btn">
+                    <button type="submit">
+                Eviar mensagem
+                </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ============ SESSÃO CONTATO ============ -->
+        <footer id="footer">
+            <div class="container-info">
+                <div class="info">
+
+                    <h4>Contato</h4>
+
+                    <div class="mb-4">
+
+                        <ul class="estilo">
+
+                            <li>
+
+                                <a href="tel:+01-555-5555">
+                        785-388-9450
+                        </a>
+
+                            </li>
+                            <li>
+
+                                <a href="mailto:info@mycomany.com">
+                        info@mycomany.com
+                        </a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- ============ LOGO FIM DA PAGINA ============ -->
+                <div class="logo">
+                    <svg width="80" height="80" fill="#ffffff" viewBox="0 0 33.441 33.441"><path d="M11.452 5.3l7.317 4.225c.203.116.461.046.578-.155l.211-.366c.117-.201.047-.46-.154-.577l-7.318-4.225c-.202-.117-.461-.047-.577.154l-.211.366c-.117.202-.048.461.154.578zM5.115 16.277l7.318 4.226c.202.116.461.047.577-.154l.211-.365c.117-.201.048-.461-.154-.577l-7.318-4.225c-.202-.117-.461-.047-.577.154l-.211.366c-.118.199-.049.458.154.575zM30.92 21.44l-14.646-7.591 1.969-3.41c.116-.201.047-.461-.153-.577l-6.588-3.803c-.201-.116-.461-.046-.577.155l-4.648 8.05c-.115.201-.046.461.155.577l6.587 3.802c.201.117.461.047.576-.154l1.97-3.41 13.896 8.889c.196.125.451.063.567-.139l1.057-1.83c.115-.199.041-.451-.165-.559zM33.23 22.509l-.731-.422c-.2-.117-.461-.047-.577.154l-1.269 2.195c-.115.201-.046.461.155.576l.731.422c.201.117.46.048.577-.154l1.268-2.195c.117-.201.048-.461-.154-.576zM17.418 25.114h-.881c.111-.124.185-.284.185-.464v-.696c0-.383-.313-.697-.696-.697h-13.936c-.384 0-.697.314-.697.697v.696c0 .18.074.34.186.464h-.882c-.385 0-.697.315-.697.698v2.787c0 .383.313.697.697.697h16.723c.385 0 .696-.314.696-.697v-2.789c0-.381-.313-.696-.698-.696zm-.991 3.221h-14.675c-.403 0-.733-.33-.733-.732v-.734c.001-.402.33-.734.733-.732h14.675c.405 0 .735.33.734.731l.001.735c-.001.402-.33.732-.735.732z"></path></svg>
+
+                    <div class="img-logo">
+                        <img src="https://smarty.stepofweb.com/3.0.5/html_frontend/assets/images/logo/logo_light.svg" width="200" height="70" alt="...">
+                    </div>
+                    <p class="p-logo">
+                        Todos os direitos reservados
+                        <br> Company Inc.
+                    </p>
+                </div>
+
+                <!-- ============ HORARIOS DE TRABALHO ============ -->
+                <div class="work">
+                    <div class="container-work">
+                        <h4 class="texto-centro mb-5">Horas de trabalho</h4>
+                        <div class="horarios">
+                            <ul>
+                                <li>
+                                    <div class="dias">
+                                        Dias da semana
+                                    </div>
+                                    <div class="hora">
+                                        09:30 &ndash; 18:00
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="dias">
+                                        Sábado
+                                    </div>
+                                    <div class="hora">
+                                        09:30 &ndash; 15:00
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="dias">
+                                        Domingo
+                                    </div>
+                                    <div class="hora">
+                                        Fechado
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <a id="icon" href="#"><i class="fas fa-arrow-up"></i></a>
+        <script src="site.js"></script>
+    </div>
+</body>
+
+</html>

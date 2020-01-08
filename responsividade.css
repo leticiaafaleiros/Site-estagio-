@@ -1,0 +1,275 @@
+@media (min-width: 831px) {
+    .h2,
+    h2 {
+        font-size: 2em;
+    }
+}
+
+
+/* ==========TABLETS========== */
+
+@media (min-width:800px) and (max-width: 1100px) {
+    .card-jessica {
+        margin-left: 8px;
+        width: 30%;
+    }
+    .card-joe {
+        margin-left: 8px;
+        width: 30%;
+        margin-right: 10px;
+    }
+    .card-joseph {
+        width: 30%;
+        margin-left: 10px;
+    }
+    .contato {
+        padding-left: 6rem;
+    }
+    .col-12 {
+        padding-left: 9rem;
+    }
+    .img-menu {
+        margin-left: 70px;
+    }
+    .col-6 {
+        flex: 0 0 25%;
+    }
+}
+
+
+/* ==========LAPTOP========== */
+
+@media (min-width: 900) and (max-width: 1440px) {
+    .col-12 {
+        padding-left: 13rem;
+    }
+    .contato {
+        padding-left: 11rem;
+    }
+}
+
+
+/* ==========SMARTPHONES========== */
+
+@media (min-width: 320px) and (max-width: 830px) {
+    .drawer {
+        width: 360px;
+        cursor: pointer;
+    }
+    .video {
+        overflow: hidden;
+        /* padding-top: 56.25%; */
+        position: relative;
+        width: 100%;
+        max-width: 500px;
+        min-width: 320px;
+    }
+    .video iframe {
+        height: 286px;
+    }
+    .modal-content {
+        width: 100%;
+        margin: 50% auto;
+    }
+    #bt_menu {
+        display: block;
+        width: 50px;
+    }
+    .img-menu {
+        width: 84%;
+    }
+    .navItem {
+        padding: 20px 30px;
+        border-bottom: 1px solid #ddd;
+        width: 200px;
+    }
+    .subtitulo {
+        margin-left: 5px;
+    }
+    .topbar {
+        padding: 0;
+    }
+    .map-form {
+        flex-wrap: wrap;
+    }
+    .texto_container {
+        margin-top: 20%;
+    }
+    .texto_container {
+        margin-top: 0;
+    }
+    .sobre-nos {
+        flex-wrap: wrap;
+    }
+    .container-info {
+        flex-direction: column-reverse;
+    }
+    .logo {
+        width: 100%;
+        height: 363px;
+        margin-top: 70px;
+    }
+    .linha {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .font-weight-normal {
+        text-align: start;
+        margin-left: 18px;
+    }
+    .contato {
+        flex-direction: column;
+        padding-left: 0px;
+        width: 100%;
+    }
+    .work {
+        margin: 0 auto;
+    }
+    .info {
+        margin-top: 90px;
+    }
+    .mapa {
+        width: 100%;
+        height: 500px;
+        padding-right: 0;
+        margin: 0;
+        margin-top: 22px;
+    }
+    .col-12 {
+        padding-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .img-menu {
+        margin-left: 4rem;
+    }
+    .casos.lead,
+    .casos.lead2 {
+        text-align: justify;
+        font-size: 1.32812rem;
+        font-weight: 400;
+        padding-left: 1rem;
+        padding-right: 4rem;
+    }
+    .icon2 {
+        margin: 0;
+    }
+    .container_sobre {
+        padding-right: 0;
+    }
+    .sobre {
+        padding: 0;
+        width: 100%;
+    }
+    p.resposta {
+        padding-left: 0;
+    }
+    .casos {
+        flex-wrap: wrap;
+    }
+    section#sessao-reputacao {
+        padding-top: 0px;
+    }
+    .texto_reputacao {
+        margin-bottom: 3rem!important;
+    }
+    .h1 {
+        font-size: 2.45625rem;
+    }
+    .font-weight-medium {
+        font-size: 45px;
+    }
+    .container-testemunha {
+        flex-direction: column;
+    }
+    .card-joseph,
+    .card-jessica,
+    .card-joe {
+        margin: 0 auto;
+        margin-bottom: 10px;
+        width: 84%;
+    }
+    .card-joseph {
+        margin-top: 10px;
+    }
+    .testemunhas {
+        padding: 0;
+    }
+    ul.menu {
+        display: block;
+        top: 66px;
+        left: 0;
+        color: #fff;
+    }
+}
+
+@media (min-width: 320px) and (max-width:640px) {
+    .formulario {
+        margin: 0 auto;
+    }
+    .drawer {
+        width: 272px;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 568px) and (max-width: 823px) {
+    button {
+        width: 96%;
+    }
+    .formulario {
+        margin: 0 auto;
+    }
+    .mapa {
+        width: 400px;
+    }
+    .drawer {
+        width: 272px;
+    }
+    .font-weight-medium {
+        font-size: 36px;
+    }
+    .btn {
+        width: 385px;
+    }
+    .col-12 {
+        padding-right: 31px;
+    }
+    .font-weight-light {
+        font-size: 30px;
+    }
+}
+
+
+/* IPHONE SE */
+
+@media (min-width: 320px) and (max-width: 568px) {
+    .form-control {
+        width: 307px;
+    }
+    .col-12 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .endereco {
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    .font-weight-medium {
+        font-size: 28px;
+    }
+    .h2,
+    h2 {
+        font-size: 20px;
+    }
+    .subtitulo {
+        margin-left: 0;
+    }
+    .btn {
+        width: 307px;
+    }
+    .drawer {
+        width: 319px;
+    }
+}
