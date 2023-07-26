@@ -155,7 +155,7 @@ h4 {
     justify-content: flex-end;
     margin-top: -22px;
     padding-bottom: 1rem;
-    border-color: #d6d6d6!important;
+    border-top: 0!important;
     border-style: dashed!important;
     border-width: 1px;
     border-left: 0!important;

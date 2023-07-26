@@ -221,7 +221,7 @@ p {
 /* IMAGEM DE FUNDO */
 
 .imagem {
-    background-image: url("https://smarty.stepofweb.com/3.0.5/html_frontend/demo.files/images/unsplash/lawyer/sebastian-pichler-bAQH53VquTc-unsplash.jpg");
+    background-image: url("./Imagem/smart.jpg");
     background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -242,7 +242,7 @@ p.font-weight-light {
 /* IMAGEM DE FUNDO */
 
 .container-6 {
-    background-image: url("https://smarty.stepofweb.com/3.0.5/html_frontend/demo.files/images/unsplash/lawyer/helloquence-OQMZwNd3ThU-unsplash.jpg");
+    background-image: url("./Imagem/smart.jpg");
     background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
